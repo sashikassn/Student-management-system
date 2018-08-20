@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="448.0" prefWidth="619.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.registration.controller.MainFormController">
+    <stylesheets>
+        <URL value="@/lk/ijse/registration/view/style/mainform.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="448.0" fitWidth="627.0" layoutX="-5.0" layoutY="-125.0" opacity="0.27" pickOnBounds="true">
+         <image>
+            <Image url="@../asset/vector-9.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgAddStudent" fitHeight="107.0" fitWidth="124.0" layoutX="42.0" layoutY="224.0" onMouseClicked="#ImgClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/Registration_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCourse" fitHeight="99.0" fitWidth="100.0" layoutX="452.0" layoutY="228.0" onMouseClicked="#ImgClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/Page_96px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgRegisterStudent" fitHeight="107.0" fitWidth="107.0" layoutX="255.0" layoutY="224.0" onMouseClicked="#ImgClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/Plus_96px.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="42.0" layoutY="358.0" prefHeight="16.0" prefWidth="137.0" text="Manage Students">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="238.0" layoutY="14.0" prefHeight="57.0" prefWidth="370.0" text="STUDENT REGISTRATION SYSTEM" textFill="#5e8ff8">
+         <font>
+            <Font name="DejaVu Sans Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="240.0" layoutY="358.0" prefHeight="16.0" prefWidth="137.0" text="Manage Students">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="433.0" layoutY="358.0" prefHeight="16.0" prefWidth="137.0" text="Manage Students">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
