@@ -7,50 +7,70 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" fx:id="root" prefHeight="448.0" prefWidth="619.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.registration.controller.MainFormController">
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="430.0" prefWidth="772.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.registration.controller.MainFormController">
     <stylesheets>
         <URL value="@/lk/ijse/registration/view/style/mainform.css" />
     </stylesheets>
    <children>
-      <ImageView fitHeight="448.0" fitWidth="627.0" layoutX="-5.0" layoutY="-125.0" opacity="0.27" pickOnBounds="true">
+      <ImageView fitHeight="442.0" fitWidth="778.0" layoutX="-4.0" opacity="0.2" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../asset/vector-9.jpg" />
+            <Image url="@../asset/back-to-school-wallpaper-2.jpg" />
          </image>
       </ImageView>
-      <ImageView fx:id="imgAddStudent" fitHeight="107.0" fitWidth="124.0" layoutX="42.0" layoutY="224.0" onMouseClicked="#ImgClicked" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgAddStudent" fitHeight="130.0" fitWidth="137.0" layoutX="36.0" layoutY="182.0" onMouseClicked="#ImgClicked" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../asset/Registration_96px.png" />
+            <Image url="@../asset/icons8-student-male-128.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="imgCourse" fitHeight="99.0" fitWidth="100.0" layoutX="452.0" layoutY="228.0" onMouseClicked="#ImgClicked" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgCourse" fitHeight="130.0" fitWidth="130.0" layoutX="414.0" layoutY="182.0" onMouseClicked="#ImgClicked" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../asset/Page_96px.png" />
+            <Image url="@../asset/icons8-test-passed-128.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="imgRegisterStudent" fitHeight="107.0" fitWidth="107.0" layoutX="255.0" layoutY="224.0" onMouseClicked="#ImgClicked" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imgRegisterStudent" fitHeight="130.0" fitWidth="159.0" layoutX="224.0" layoutY="182.0" onMouseClicked="#ImgClicked" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../asset/Plus_96px.png" />
+            <Image url="@../asset/icons8-add-user-male-128.png" />
          </image>
       </ImageView>
-      <Label layoutX="42.0" layoutY="358.0" prefHeight="16.0" prefWidth="137.0" text="Manage Students">
+      <Label layoutX="35.0" layoutY="319.0" prefHeight="16.0" prefWidth="137.0" text="Manage Students">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </Label>
-      <Label layoutX="238.0" layoutY="14.0" prefHeight="57.0" prefWidth="370.0" text="STUDENT REGISTRATION SYSTEM" textFill="#5e8ff8">
-         <font>
-            <Font name="DejaVu Sans Bold" size="19.0" />
-         </font>
-      </Label>
-      <Label layoutX="240.0" layoutY="358.0" prefHeight="16.0" prefWidth="137.0" text="Manage Students">
+      <Label layoutX="213.0" layoutY="319.0" prefHeight="16.0" prefWidth="150.0" text="Course-Registration">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </Label>
-      <Label layoutX="433.0" layoutY="358.0" prefHeight="16.0" prefWidth="137.0" text="Manage Students">
+      <Label layoutX="418.0" layoutY="319.0" prefHeight="16.0" prefWidth="137.0" text="Manage Courses">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </Label>
+      <Label layoutX="603.0" layoutY="319.0" prefHeight="16.0" prefWidth="137.0" text="Manage Batches">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="130.0" fitWidth="130.0" layoutX="602.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/icons8-conference-128.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="263.0" layoutY="103.0" prefHeight="31.0" prefWidth="244.0" text="WELCOME !" textFill="#098682">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="257.0" layoutY="407.0" prefHeight="16.0" prefWidth="260.0" text="copyright Slash#|eSDevOps LK 2018 - DEP version">
+         <font>
+            <Font name="System Bold" size="9.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="374.0" layoutX="228.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/DDFhTvbV.gif" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

@@ -6,34 +6,44 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" fx:id="root" prefHeight="491.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.registration.controller.ManageCourseFormController">
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="473.0" prefWidth="718.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.registration.controller.ManageCourseFormController">
    <children>
-      <Label layoutX="61.0" layoutY="5.0" prefHeight="53.0" prefWidth="409.0" text="Manage Courses">
-         <font>
-            <Font name="System Bold" size="27.0" />
-         </font>
-      </Label>
-      <Label layoutX="61.0" layoutY="46.0" prefHeight="32.0" prefWidth="169.0" text="Add New Course">
+      <ImageView fitHeight="481.0" fitWidth="718.0" layoutX="-1.0" opacity="0.24" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/stationary-cork-board-wallpaper-many-office-supplies-tools-55059831.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="61.0" layoutY="46.0" prefHeight="32.0" prefWidth="169.0" text="Add Course Here !" textFill="#189e5f">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </Label>
-      <JFXTextField fx:id="txtCourseName" layoutX="61.0" layoutY="121.0" prefHeight="23.0" prefWidth="361.0" promptText="Course Name" />
-      <JFXTextField fx:id="txtCourseID" layoutX="61.0" layoutY="83.0" prefHeight="25.0" prefWidth="162.0" promptText="Course ID" />
-      <TableView fx:id="tblCourse" layoutX="50.0" layoutY="256.0" prefHeight="215.0" prefWidth="501.0">
+      <JFXTextField fx:id="txtCourseName" layoutX="27.0" layoutY="126.0" prefHeight="26.0" prefWidth="279.0" promptText="Course Name" />
+      <JFXTextField fx:id="txtCourseID" layoutX="27.0" layoutY="92.0" prefHeight="26.0" prefWidth="279.0" promptText="Course ID" />
+      <TableView fx:id="tblCourse" layoutX="-1.0" layoutY="205.0" prefHeight="275.0" prefWidth="718.0">
          <columns>
-            <TableColumn prefWidth="142.0" text="Course ID" />
-            <TableColumn prefWidth="201.0" text="Course Name" />
-            <TableColumn prefWidth="155.0" text="Duration" />
+            <TableColumn prefWidth="183.0" text="Course ID" />
+            <TableColumn prefWidth="293.0" text="Course Name" />
+            <TableColumn prefWidth="240.0" text="Duration" />
          </columns>
       </TableView>
-      <JFXButton layoutX="109.0" layoutY="203.0" onAction="#addCourseBtn" prefHeight="43.0" prefWidth="149.0" style="-fx-background-color: rgba(100,200,100,0.8);" text="Add Course" />
-      <JFXButton layoutX="273.0" layoutY="203.0" onAction="#removeCourseBtn" prefHeight="43.0" prefWidth="149.0" style="-fx-background-color: rgba(100,200,100,0.8);" text="Remove" />
-      <JFXTextField fx:id="txtDuration" layoutX="61.0" layoutY="162.0" prefHeight="25.0" prefWidth="193.0" promptText="Course Duration" />
-      <Button layoutX="9.0" layoutY="16.0" mnemonicParsing="false" onMouseClicked="#navigateToHome" text="&lt;&lt;" />
-      <JFXButton layoutX="437.0" layoutY="203.0" onAction="#updateCourseBtn" prefHeight="43.0" prefWidth="149.0" style="-fx-background-color: rgba(100,200,100,0.8);" text="Update Course" />
+      <JFXButton layoutX="321.0" layoutY="154.0" onAction="#addCourseBtn" prefHeight="43.0" prefWidth="103.0" style="-fx-background-color: #23a790;" text="Add Course">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="530.0" layoutY="175.0" onAction="#removeCourseBtn" prefHeight="26.0" prefWidth="175.0" style="-fx-background-color: #ff6666;" text="Remove Selcted" />
+      <JFXTextField fx:id="txtDuration" layoutX="27.0" layoutY="162.0" prefHeight="26.0" prefWidth="279.0" promptText="Course Duration" />
+      <Button mnemonicParsing="false" onMouseClicked="#navigateToHome" prefHeight="36.0" prefWidth="70.0" style="-fx-background-color: lightgreen;" text="Home" />
+      <JFXButton layoutX="530.0" layoutY="141.0" onAction="#updateCourseBtn" prefHeight="26.0" prefWidth="175.0" style="-fx-background-color: #ffa64d;" text="Update Course Detail" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="211.0" layoutY="10.0" prefHeight="36.0" prefWidth="296.0" text="Manage Courses" textFill="#098682">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

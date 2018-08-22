@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ijse-registration.iml" filepath="$PROJECT_DIR$/ijse-registration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Registration-Hibernate.iml" filepath="$PROJECT_DIR$/Registration-Hibernate.iml" />
     </modules>
   </component>
 </project>
